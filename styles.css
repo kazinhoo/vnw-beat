@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #129799 ;
+    height: 58vh;
+}
+nav{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 38vw;
+    list-style: none;
+}
+li{
+    font-size:24px ;
+    font-family: "roboto",sans-serif;
+    color: #ffff;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41vh;
+}
+h2{
+    position: relative;
+    top: -5vh;
+    right: -5vh;
+    font-size:35px ;
+    font-family: "roboto",sans-serif;
+    color: #ffff;
+
+}
+p{
+    font-size: 30px;
+    position: relative;
+    top: 10vh;
+    right: 17vh;
+    font-family:"roboto", sans-serif;
+}
+
+img{
+    position: relative;
+    top: -1vh;
+}
+.secondul{
+    width: 65vw;
+
+}
+main{
+    background-color: #ffa185;
+    height: 150vh;
+}
+h3{
+    font-family:"roboto", sans-serif;
+    position: absolute;
+    left: 46vw;
+    font-size: 25px;
+    bottom: -50vw;
+}
+.secondsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 90vh;
+}
+.secondsectionimgs{
+    width: 40vw;
+    height: 40vh;
+}
+
+footer{
+    background-color:#129799;
+    height: 15vh;
+    
+}
+.logo{
+    color: white;
+   position: relative;
+   right: 40vw;
+   font-size: 30px;
+   top: 6vh; 
+}
+
+.navul{
+    position: absolute;
+    left: 60vw;
+    bottom: -62vw;
+}
